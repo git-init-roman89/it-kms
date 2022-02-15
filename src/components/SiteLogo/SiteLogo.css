@@ -1,0 +1,25 @@
+.site-logo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 22%;
+}
+.fa-share-nodes {
+  font-size: 2.813rem;
+  color: #50b5ff;
+}
+
+.logo-text {
+  margin-left: 0.625rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #3f414d;
+}
+
+.fa-bars {
+    margin-left: 1.3rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #777d74;
+    cursor: pointer;
+}

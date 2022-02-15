@@ -1,0 +1,26 @@
+.site-searchbar {
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    color: #50b5ff;
+    font-size: 0.9rem;
+    padding-right: 0.983rem;
+}
+
+.seachbox {
+    position: relative;
+    width: 100%;
+    height: 1.8rem;
+    padding: .313rem 2.5rem .313rem .938rem;
+    border-radius: 5px;
+    border: none;
+    background: rgba(80,181,255,.2);
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}

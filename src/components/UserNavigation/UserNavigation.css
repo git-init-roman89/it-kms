@@ -1,0 +1,61 @@
+.user-navigation {
+    grid-area: left;
+    position: sticky;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 100vh;
+    background-color: white;
+    margin-top: -1rem;
+}
+
+.user-navigation-flex {
+display: flex;
+flex-flow: row wrap;
+margin-top: 1rem;
+}
+
+.fa-square-rss,
+.fa-user,
+.fa-users,
+.fa-image,
+.fa-video,
+.fa-retweet,
+.fa-certificate,
+.fa-wpforms,
+.fa-file,
+.fa-anchor,
+.fa-message,
+.fa-circle-check,
+.fa-calendar-days,
+.fa-cake-candles,
+.fa-cloud-sun,
+.fa-music,
+.fa-square-poll-vertical {
+    color: #777d74;
+}
+
+.group-icon {
+    color: #777d74;
+}
+
+.fa-angle-right {
+    color: #777d74;
+}
+
+.user-navigation-item {
+    width: 100%;
+    padding: 1rem 0 1.2rem 2rem;
+    display: flex;
+}
+
+.user-navigation-item-title {
+    padding-left: 1rem;
+    color: #777d74;
+    font-size: 0.85rem;
+}
+
+.user-navigation-item-title:hover,
+.user-navigation-item-title:focus {
+    color: #50b5ff;
+    cursor: pointer;
+}
