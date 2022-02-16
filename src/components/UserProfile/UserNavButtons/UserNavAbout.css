@@ -1,0 +1,18 @@
+.user-nav-about {
+    width: 25%;
+    padding: 1.5rem 0;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user-link {
+    text-decoration: none;
+    color: #777d74;
+}
+
+.active {
+    background-color: #50b5ff;
+    color: white;
+}

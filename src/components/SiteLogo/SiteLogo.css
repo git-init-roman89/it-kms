@@ -23,3 +23,10 @@
     color: #777d74;
     cursor: pointer;
 }
+
+.logo-link {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-decoration: none;
+}

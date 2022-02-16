@@ -1,0 +1,10 @@
+.user-posts {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    color: #777d74;
+    font-size: 14px;
+}

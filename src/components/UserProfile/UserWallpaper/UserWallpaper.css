@@ -1,0 +1,11 @@
+.user-profile-wallpaper-caption {
+  width: 100%;
+    height: 31%; 
+  }
+
+.user-profile-wallpaper {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
