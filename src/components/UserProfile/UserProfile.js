@@ -4,8 +4,6 @@ import UserSocialbar from "./UserSocialbar/UserSocialbar";
 import UserNavMenu from './UserNavMenu/UserNavMenu';
 import './UserProfile.css';
 import UserTimeline from './UserTimeline/UserTimeline';
-import UserAbout from './UserTimeline/UserAbout/UserAbout';
-
 
 function UserProfile() {
   return (
@@ -14,7 +12,6 @@ function UserProfile() {
       <UserSocialbar/>
       <UserNavMenu />
       <UserTimeline />
-      {/* <UserAbout /> */}
     </div>
   );
 }

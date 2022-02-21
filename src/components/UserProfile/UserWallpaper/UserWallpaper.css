@@ -1,6 +1,6 @@
 .user-profile-wallpaper-caption {
   width: 100%;
-    height: 31%; 
+  height: 260px; 
   }
 
 .user-profile-wallpaper {
@@ -8,4 +8,11 @@
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 990px) {
+  .user-profile-wallpaper-caption {
+    width: 100%;
+    height: 180px; 
+    }
 }

@@ -7,7 +7,7 @@ import './UserNavFriends.css';
 function UserNavFriends() {
   return (
     <div className="user-nav-friends">
-      <Link to="/myfriends" className='user-link'>Friends</Link>
+      <Link to="/myfriends" ><button className='user-link'>Friends</button></Link>
     </div>
   );
 }

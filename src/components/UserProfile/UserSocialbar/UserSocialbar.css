@@ -90,3 +90,37 @@
     margin-top: 0;
     color:  #777d74;;
 }
+
+
+@media screen and (max-width: 990px) {
+    .user-socialbar{
+        display: flex;
+        flex-flow: column;
+        height: 210px;
+    }
+
+    .user-socialbar-icons{
+        width: 100%;
+        order: 2;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+        gap: 2.5rem;
+    }
+.user-followers{
+    width: 100%;
+    order: 3;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+    gap: 2.5rem;
+}
+
+.main-user-photo {
+        margin: -4rem auto 2rem auto;
+    }
+
+    .main-username > span {
+        margin: 4rem auto 0 auto;
+    }
+}

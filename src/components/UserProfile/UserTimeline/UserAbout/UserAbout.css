@@ -1,10 +1,45 @@
 .user-about {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  background-color: white;
+  border-radius: 5px;
+  color: #777d74;
+  font-size: 14px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1rem 0;
+}
+
+.user-about-list {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: left;
+  gap: 0.9rem;
+  margin: 0;
+  padding: 0;
+}
+
+.user-about-link {
+  color: #50b5ff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+    background: 0 0;
+    border: 0;
     border-radius: 5px;
-    color: #777d74;
-    font-size: 14px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.user-about-link:active {
+    color: #50b5ff;
+background: rgba(80,181,255,.2);
+}
+
+.user-about-components {
+    width: 70%;
+    justify-content: flex-start;
+
 }

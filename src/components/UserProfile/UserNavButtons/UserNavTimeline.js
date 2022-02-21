@@ -6,8 +6,8 @@ import './UserNavTimeline.css';
 
 function UserNavTimeline() {
   return (
-    <div className="user-nav-timeline active">
-      <Link to="/myposts" className='user-link active'>Timeline</Link>
+    <div className="user-nav-timeline">
+      <Link to="/myposts"><button className='user-link'>Timeline</button></Link>
     </div>
   );
 }

@@ -59,3 +59,9 @@ margin-top: 1rem;
     color: #50b5ff;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1300px) {
+    .friends-online {
+        display: none;
+    }
+}

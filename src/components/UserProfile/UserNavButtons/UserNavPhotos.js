@@ -7,7 +7,7 @@ import './UserNavPhotos.css';
 function UserNavPhotos() {
   return (
     <div className="user-nav-photos">
-      <Link to="/myphotos" className='user-link'>Photos</Link>
+      <Link to="/myphotos"><button className='user-link'>Photos</button></Link>
     </div>
   );
 }

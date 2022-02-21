@@ -22,3 +22,28 @@ body {
   grid-area: foot;
   }
 
+  @media screen and (max-width: 1300px) {
+    .App {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 7fr 1fr;
+      grid-template-areas: 
+        "head head head"
+        "left main right"
+        "left foot right";
+        gap: 1rem;
+      }
+}
+
+@media screen and (max-width: 990px) {
+  .App {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-areas: 
+      "head head head"
+      "left main right"
+      "left foot right";
+      gap: 1rem;
+    }
+}

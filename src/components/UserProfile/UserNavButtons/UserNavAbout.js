@@ -7,7 +7,7 @@ import './UserNavAbout.css';
 function UserNavAbout() {
   return (
     <div className="user-nav-about">
-      <Link to="/myabout" className='user-link'>About</Link>
+      <Link to="/myabout"><button className='user-link active'>About</button></Link>
     </div>
   );
 }
