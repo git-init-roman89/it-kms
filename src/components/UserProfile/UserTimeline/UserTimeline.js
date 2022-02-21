@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Switch } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import UserPosts from "./UserPosts/UserPosts";
 import UserAbout from './UserAbout/UserAbout';
 import UserFriends from "./UserFriends/UserFriends";

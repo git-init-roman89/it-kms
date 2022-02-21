@@ -1,0 +1,115 @@
+.relationship-info {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  color: black;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.relationship-header {
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+}
+
+.relationship-address-info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+  margin-bottom: 1.25rem;
+}
+
+.relationship-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.relationship-info-item {
+  display: flex;
+  flex-flow: column;
+  color: #777d74;
+  font-weight: 500;
+  font-size: 1rem;
+  gap: 0.6rem;
+}
+
+.relationship-info-text {
+  display: flex;
+  flex-flow: column;
+  color: black;
+  font-weight: 400;
+  font-size: 0.9rem;
+  gap: 0.6rem;
+}
+
+.relationship-avatar-caption {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.relationship-avatar {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.relationship-people {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.relationship-people-text {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+}
+
+.relationship-people-name {
+  color: black;
+  font-size: 0.9rem;
+}
+
+.relationship-people-status {
+  color: #777d74;
+  font-size: 0.85rem;
+}
+
+.relationship-edit-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.5rem;
+}
+
+.relationship-edit-btn {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.fa-pen {
+  color: #50b5ff;
+  font-size: 0.75rem;
+}
+
+.relationship-edit-btn-text {
+  color: #50b5ff;
+  font-size: 0.85rem;
+}
+
+.relationship-people-container {
+  display: flex;
+  flex-flow: column;
+}
